@@ -8,9 +8,3 @@ export interface TUser {
   isBlocked: boolean;
   // isDeleted: boolean;
 }
-
-//for creating static
-
-// export interface UserModel extends Model<TUser> {
-//   isUserExists(id: string): Promise<TUser | null>;
-// }
